@@ -10,19 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace TabbedPage_own
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Jaanuar : ContentPage
+    public partial class Aprill : ContentPage
     {
-        public Jaanuar()
+        public Aprill()
         {
             InitializeComponent();
             Label text = new Label()
             {
-                Text = "Jaanuar on Gregoriuse kalendris aasta esimene kuu. Jaanuar oli Vana-Roomas aastani 154 eKr aasta eelviimane ehk üheteistkümnes kuu. Jaanuaris on 31 päeva.",
+                Text = "Aprill on Gregoriuse kalendris aasta neljas kuu. Selles on 30 päeva. Aprill oli Vana - Roomas aastani 154 eKr aasta teine kuu.Nimetus tuleb ladinakeelsest nimetusest Aprilis ja tähendab arvatavasti 'avav'.",
             };
 
             var img = new Image()
             {
-                Source = "https://lugejakiri.ee/wp-content/uploads/2019/01/t%C3%A4jistaevas.jpg"
+                Source = "https://p.ocdn.ee/53/i/2015/4/10/rtr55uvo.ttj.jpg"
             };
             Content = new StackLayout { Children = { text, img } };
         }

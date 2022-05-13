@@ -8,9 +8,10 @@
             x:Class="TabbedPage_own.MainPage">
 
     <TabbedPage.Children>
-        <local:Jaanuar/>
-        <local:Veebruar/>
-        <local:Marts/>
+        <local:Talv/>
+        <local:Kevad/>
+        <local:Suvi/>
+        <local:Sugis/>
         
     </TabbedPage.Children>
     
