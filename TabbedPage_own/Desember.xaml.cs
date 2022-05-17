@@ -22,7 +22,7 @@ namespace TabbedPage_own
 
             var img = new Image()
             {
-                Source = "https://www.martenfoto.com/_data/i/upload/2015/01/03/20150103233001-f2e0d263-me.jpg"
+                Source = "https://secretldn.com/wp-content/uploads/2020/11/london-december-christmas1.png"
             };
             Content = new StackLayout { Children = { text, img } };
         }
